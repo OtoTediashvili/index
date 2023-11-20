@@ -7,8 +7,7 @@ body {
 }
 
 .header {
-    background-image: linear-gradient(rgba(0, 0, 0, 0)rgba(0, 0, 0, 0));
-    border-bottom: 2px solid wheat;
+    background-image: linear-gradient(top (0, 0, 0, 0.5) bottom rgba(0, 0, 0, 0));
     padding: 20px;
     position: fixed;
     top: 0;
@@ -39,4 +38,34 @@ a:hover {
 }
 .logo:hover {
     color: white;
+}
+
+
+input {
+    font-weight: 300;
+    font-size: 14px;
+    height: 37px;
+    width: 20%;
+    background: transparent;
+    color: white;
+    border: 0.2;
+    border: 2px solid rgba(grey,);
+    border-radius: 37px;
+    padding: 10px;
+}	
+
+.box {
+    position: relative;
+    height: 400px;
+    width: 400px;
+    color: white;
+    top: 160px;
+    left: 80px;
+}
+
+.buttons :first-child {
+    color: white;
+    border: solid 2px red ;
+    border-radius: 25px;
+    padding: 8px;
 }
